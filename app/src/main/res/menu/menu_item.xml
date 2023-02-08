@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Tutorial"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_launcher_round"
+        android:id="@+id/item_tutorial"/>
+
+    <item
+        android:title="Support"
+        android:id="@+id/item_support" />
+
+    <item
+        android:id="@+id/item_aboutus"
+        android:title="About us" />
+
+    <item
+        android:title="Exit"
+        android:id="@+id/item_exit" />
+    <item
+        android:id="@+id/item_sort"
+        android:title="Sort" >
+        <menu>
+            <item
+                android:id="@+id/sort_by_name"
+                android:title="Sort by Name" />
+
+            <item
+                android:id="@+id/sort_by_phone"
+                android:title="Sort by phone" />
+
+        </menu>
+
+    </item>
+</menu>
