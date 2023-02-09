@@ -16,18 +16,6 @@ public class Contact {
         this.avt = avt;
     }
 
-    public Contact(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
     public String getName() {
         return name;
     }
